@@ -1,0 +1,21 @@
+.Result{
+    width: 12rem;
+        height: 7rem;
+        display: flex;
+        flex-direction: column;
+        font-size: 3rem;
+        border: 2px solid black;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px 5px black;
+       
+        
+}
+.btn{
+    width: 8rem;
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: #f46adb;
+    box-shadow: 1px 1px 10px 1px black;
+
+}

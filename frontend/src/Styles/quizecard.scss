@@ -1,0 +1,39 @@
+.quizecard{
+    width: 15rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    justify-content: space-around;
+    border-radius: 20px;
+    overflow: hidden;
+    &:hover{
+        width: 15.5rem;
+        height: 25.5rem;
+    }
+    >img{
+        width: 15rem;
+    height: 14rem;
+    }
+    >div{
+        font-size: 2rem;
+        color: rgb(79, 107, 183);
+    }
+    >a{
+     width: 6rem;
+     height: 3rem;
+     border-radius: 10px;
+     background-color: rgb(157, 212, 188);
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     text-decoration: none;
+     &:hover{
+        width: 15.5rem;
+        height: 25.5rem;
+    }
+    }
+}

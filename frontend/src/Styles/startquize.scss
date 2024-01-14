@@ -1,0 +1,120 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+   }
+   .startQuize{
+    width: 100vw;
+            height: 100vh;
+    background-color: rgb(246, 218, 223);
+     >div{
+
+        display: flex;
+        width: 100%;
+        height: 90%;
+           
+          background-color: rgb(246, 218, 223);
+   .question{
+       width:5rem ;
+       height: 100vh;
+       display: flex;
+       flex-direction: column;
+       border: 2px solid black;
+       .circle{
+           width: 4rem;
+           height: 4rem;
+           background-color: #f46adb;
+       border-radius: 100%;
+       &:hover{
+           background-color: rgb(73, 78, 231);
+           font-size: 1.7rem;
+       }
+       }
+       .selected{
+           background-color:rgb(73, 78, 231) ;
+       }
+       
+   }
+   .quize{
+       width: 100vw;
+       height: 100vh;
+       display: flex;
+       flex-direction: column;
+       background: rgb(236, 169, 249);
+       
+       >div{
+           width: 90%;
+           height: 75%;
+           border-radius: 2rem;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           >div{
+               width: 90%;
+               height: 80%;
+               border: 2px solid black;
+               border-radius: 2rem;
+               padding: 2rem;
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               justify-content: space-between;
+               align-items: center;
+               
+               .question{
+   
+                   width: 99%;
+                   height: 5rem;
+                   display: flex;
+               flex-direction: column;
+               justify-content: center;
+               
+               align-items: center;
+                   border: 2px solid black;
+                   border-radius: 1rem;
+                   >span{
+                       font-size: 1.5rem;
+                   }
+               }
+               .button{
+                   width: 99%;
+                   height: 3rem;
+                   border-radius:12px;
+                   font-size: 1.5rem;
+                   background: rgb(236, 169, 249);
+       
+                   &:hover{
+                       background-color: rgb(236, 94, 224);
+                       font-size: 1.7rem;
+                       
+                   }
+   
+               }
+               .selected{
+                   background-color:rgb(73, 78, 231) ;
+               }
+               
+               .handlebutton{
+                   width: 90%;
+                   height: 3rem;
+                   display: flex;
+                   justify-content:space-between;
+
+                   >input{
+                       width: 7rem;
+                       font-size: 20px;
+                       border-radius: 10px;
+                       background-color: rgb(236, 94, 224); 
+                       &:hover{
+                        background-color:rgb(219, 128, 213);
+                       }
+                   }
+               }
+           }
+       }
+   }
+}
+}
+   
